@@ -733,7 +733,7 @@ a:hover, a:focus {
 }
 
 .header, .container, .footer {
-    max-width: 1320px;
+    max-width: 1020px;
     min-width: 320px;
     margin: 0 auto;
     text-align: left;
@@ -759,16 +759,14 @@ a:hover, a:focus {
 }
 
 .container {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    margin-top: 45px;
 }
 
 .content-wrap {
-    width: 100%;
-    float: left
-}
-
-.content {
-    margin-right: 370px
+    float: left;
+    width: 650px;
+    margin-left: 10px;
 }
 
 .content-page {
@@ -798,7 +796,6 @@ a:hover, a:focus {
 
 .sidebar {
     float: left;
-    margin-left: -360px;
     width: 360px;
     position: relative
 }
@@ -2957,7 +2954,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     position: relative;
     *z-index: 2;
     *zoom: 1;
-    max-width: 1320px;
+    max-width: 1020px;
     margin: 0 auto;
 }
 
@@ -4088,11 +4085,11 @@ a.label-inverse:hover .label-arrow, a.badge-inverse:hover .label-arrow {
     position: relative;
     margin: 0;
     line-height: 20px;
-    padding: 6px 20px;
+    padding: 6px 0;
     font-size: 15px;
     background-color: #fff;
     height: 20px;
-    border-bottom: 1px solid #b7bbbf;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
     font-weight: bold;
     color: #14191e;
 }
@@ -4336,7 +4333,9 @@ a.label-inverse:hover .label-arrow, a.badge-inverse:hover .label-arrow {
 }
 
 .excerpt .note {
-    margin-bottom: 0
+    margin-bottom: 0;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .comm {
@@ -4992,11 +4991,11 @@ a.label-inverse:hover .label-arrow, a.badge-inverse:hover .label-arrow {
     position: relative;
     margin: 0;
     line-height: 20px;
-    padding: 6px 15px;
+    padding: 6px 0;
     font-size: 15px;
     background-color: #fff;
     height: 20px;
-    border-bottom: 1px solid #b7bbbf;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
     font-weight: bold;
     color: #14191e;
 }
@@ -5426,6 +5425,10 @@ a.label-inverse:hover .label-arrow, a.badge-inverse:hover .label-arrow {
     position: relative;
     display: block;
     font-size: 14px
+}
+
+.d_postlist li .a-no-img {
+    padding: 0;
 }
 
 .d_postlist li a:hover {
@@ -6738,7 +6741,7 @@ pre.prettyprint.linenums ol li {
 /*personal info*/
 .ques-wrap {
     background-color: #fff;
-    padding: 20px 20px 10px;
+    padding-top: 10px;
     min-height: 140px;
 }
 
@@ -6799,4 +6802,16 @@ pre.prettyprint.linenums ol li {
 .num-info span {
     color: #4d555d;
     margin-left: 10px;
+}
+
+.item-img, .item-img img {
+    width: 210px;
+    height: 130px;
+    overflow: hidden;
+    margin: 0 20px 0 0;
+    margin-top: 4px;
+}
+
+.l{
+    float: left;
 }
