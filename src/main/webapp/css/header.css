@@ -382,7 +382,7 @@
 #index, .header_cont {
     margin: auto;
     width: 1020px;
-    max-width: 1020px;
+    max-width: 1200px;
     width: 96%;
     letter-spacing: -.8em;
 }
@@ -409,7 +409,6 @@
 }
 
 #header.fix {
-    border-bottom: 1px solid rgba(0, 0, 0, .05);
     position: fixed;
     animation: header .2s;
 }

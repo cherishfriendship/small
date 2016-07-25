@@ -56,12 +56,12 @@ window.onscroll = function () {
         }
     }
     if (getClientWidth() > 880) {
-        if (document.documentElement.scrollTop >= 200 || document.body.scrollTop >= 200) {
+        if (document.documentElement.scrollTop > 0 || document.body.scrollTop > 0) {
             document.getElementById("header").setAttribute("class", "fix");
             $('.logo img').fadeIn();
         } else {
             document.getElementById("header").setAttribute("class", "");
-            $('.logo img').hide();
+            $('.logo img').fadeOut();
         }
     }
 }

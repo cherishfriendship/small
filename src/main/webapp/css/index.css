@@ -733,7 +733,7 @@ a:hover, a:focus {
 }
 
 .header, .container, .footer {
-    max-width: 1020px;
+    max-width: 1200px;
     min-width: 320px;
     margin: 0 auto;
     text-align: left;
@@ -760,13 +760,14 @@ a:hover, a:focus {
 
 .container {
     margin-bottom: 10px;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .content-wrap {
     float: left;
-    width: 650px;
+    width: 890px;
     margin-left: 10px;
+    border-top: 1px solid #eee;
 }
 
 .content-page {
@@ -796,7 +797,7 @@ a:hover, a:focus {
 
 .sidebar {
     float: left;
-    width: 360px;
+    width: 300px;
     position: relative
 }
 
@@ -1465,14 +1466,14 @@ table {
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("img/glyphicons-halflings.png");
+    background-image: url("../img/glyphicons-halflings.png");
     background-position: 14px 14px;
     background-repeat: no-repeat;
     margin-top: 4px;
 }
 
 .icon-white {
-    background-image: url("img/glyphicons-halflings-white.png");
+    background-image: url("../img/glyphicons-halflings-white.png");
 }
 
 .icon12 {
@@ -2954,7 +2955,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     position: relative;
     *z-index: 2;
     *zoom: 1;
-    max-width: 1020px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -4530,7 +4531,7 @@ a.label-inverse:hover .label-arrow, a.badge-inverse:hover .label-arrow {
 .breadcrumbs {
     margin: 0 0 1px;
     padding: 9px 20px 7px;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
 }
 
 .breadcrumbs small {
@@ -4549,7 +4550,11 @@ a.label-inverse:hover .label-arrow, a.badge-inverse:hover .label-arrow {
 .article-header {
     margin-bottom: 1px;
     padding: 2px 20px 12px;
-    background-color: #fbfbfb;
+    /*background-color: #fbfbfb;*/
+}
+
+.article-title {
+    font-weight: bold;
 }
 
 .article-title a {
@@ -6812,6 +6817,6 @@ pre.prettyprint.linenums ol li {
     margin-top: 4px;
 }
 
-.l{
+.l {
     float: left;
 }
